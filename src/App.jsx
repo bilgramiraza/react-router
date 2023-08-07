@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './App.css'
 
 function App() {
@@ -9,7 +10,8 @@ function App() {
       <nav>
         <ul>
           <li>
-            <a href='profile'>Profile Page</a>
+            <p><a href='profile'>Profile Page(Normal A Link)</a></p>
+            <p><Link to='profile'>Profile Page(Link component)</Link></p>
           </li>
         </ul>
       </nav>
